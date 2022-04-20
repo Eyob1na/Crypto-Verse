@@ -1,10 +1,11 @@
+
 :root{
     --text-primary:#000;
     --bgPrimary:#fff;
-    --bgSecondary: #F9F9F9;
-    --pink: #0071bd;
-    --light-blue: #e6f7ff;
-    --border: #d9d9d9;
+   --bgSecondary: #F9F9F9;
+   --pink: #0071bd;
+   --light-blue: #e6f7ff;
+   --border: #d9d9d9;
 }
 
 * {
@@ -38,7 +39,6 @@ a:hover{
 .nav-container{
     position: fixed;
     left: 0;
-    display: flex;
     margin: 10px;
     height: 100vh;
     margin: 0px;
@@ -47,16 +47,16 @@ a:hover{
 
 .logo-container{
     background-color: #001529;
+    display: flex;
     padding: 20px;
     align-items: center;
-    
     width: 100%;
 }
 .logo{
     margin:0 0 0 15px;
 }
 .logo a{
-    color: white;
+   color: white;
 }
 .menu-control-container{
     display: none !important;
@@ -117,7 +117,7 @@ a:hover{
         z-index: 100;
         background-color: var(--bgSecondary);
     }
-
+  
     .menu-control-container{
         display: block !important;
     }
@@ -235,7 +235,7 @@ a:hover{
 }
 
 .coin-links{
-    padding: 0px 20px;
+  padding: 0px 20px;
     flex: 0.5;
 }
 
